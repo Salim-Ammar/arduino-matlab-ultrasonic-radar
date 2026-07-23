@@ -1,0 +1,19 @@
+# Arduino build artifacts
+firmware/*/*.o
+firmware/*/*.elf
+firmware/*/*.hex
+firmware/*/obj/
+
+# MATLAB
+*.asv
+*.m~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
